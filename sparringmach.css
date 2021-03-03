@@ -17,7 +17,7 @@
 }
 
 .sm_searching {
-  width: 700px;
+  width: 800px;
   margin: auto;
 }
 
@@ -29,9 +29,15 @@
   display: flex;
 }
 
+.sm_searching_item1_form {
+  display: flex;
+  width: 464px;
+  margin-right: 20px;
+}
+
 #form_gim {
   height: 40px;
-  width: 250px;
+  width: 350px;
   border: 1px solid black;
   background: #ffffff;
   border-radius: 20px;
@@ -51,7 +57,7 @@ input:-ms-input-placeholder {
 .input-text {
   margin: 13px 0px 2px 20px;
   font-size: 15px;
-  width: 200px;
+  width: 280px;
   padding: 0px;
   border: 1px;
   float: left;
@@ -59,11 +65,37 @@ input:-ms-input-placeholder {
   background-color: #f7f7f7;
   color: black;
 }
-button {
+.gim_btn {
   border: none;
   background-color: #f7f7f7;
-  height: 42px;
+  height: 40px;
   font-size: 18px;
 
   outline: none;
+}
+
+.address_btn {
+  width: 80px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: 0;
+  font-weight: bold;
+  color: gray;
+}
+
+.item1 {
+  margin: 13px 20px 13px 0px;
+}
+
+.item1_2 {
+  margin: 13px 20px 13px 20px;
+}
+.item1_address {
+  height: 42px;
+  width: 110px;
+  font-size: 12px;
+}
+
+.item1_address_option {
+  padding: 70px;
 }

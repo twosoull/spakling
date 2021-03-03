@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="sparringmach.css">
-    <script src="https://kit.fontawesome.com/5a9452f10d.js" crossorigin="anonymous"></script>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="sparringmach.css">
+  <script src="https://kit.fontawesome.com/5a9452f10d.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <!-- Header -->
-    
-<div id="wrap">
+  <!-- Header -->
+
+  <div id="wrap">
     <div id="container">
       <div id="header">
         <ul>
           <li class="menu1">
             <a href="main.html" class="main">
-                <img src ="img/로고.png">
+              <img src="img/로고.png">
             </a>
           </li>
           <li class="menu2">
             <a href="" class="matching">
-              <span>
+              <div>
                 스파링 매치
-              </span>
+              </div>
             </a>
           </li>
           <li class="menu3">
             <a href="" class="shopping">
-              <span>
+              <div>
                 스토어
-              </span>
+              </div>
             </a>
           </li>
           <li class="menu4">
             <a href="" class="mypage">
-                <img src ="img/마이페이지 남성_글러브.png">
+              <img src="img/마이페이지 남성_글러브.png">
             </a>
           </li>
           <li class="menu5">
             <a href="" class="bell">
-                <img src ="img/bell_2.png">
+              <img src="img/bell_2.png">
             </a>
           </li>
-        </li>
-        <li class="menu6">
-          <a href="" class="cart">
-              <img src ="img/cart3.png">
-          </a>
-        </li>
+          </li>
+          <li class="menu6">
+            <a href="" class="cart">
+              <img src="img/cart3.png">
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </div>
-  
+
   <!-- Sparring -->
   <div class="wrap">
     <div class="container">
@@ -66,39 +68,47 @@
       <section class="sm_searching">
         <!-- item1 -->
         <div class="sm_searching_item1">
+
+          <!-- 시군구 검색 -->
+          <form class="sm_searching_item1_form" action="">
+            <div>
+              <div class="item1">시도</div>
+            </div>
+            <select class="item1_address" name="address" id="">
+              <option class ="item1_address_option" value="서울특별시">서울특별시</option>
+            </select>
+            <div>
+              <div class="item1_2">시군구</div>
+            </div>
+            <select class="item1_address" name="address2" id="">
+              <option class ="item1_address_option" value="중랑구">중랑구</option>
+            </select>
+            <button class="address_btn">검색</button>
+          </form>
           <!-- 체육관 검색 -->
           <form id="form_gim" action="">
-            <input class="input-text"type="text" placeholder="체육관 이름..">
-            <button><i class="fas fa-search"></i></button>
+            <input class="input-text" type="text" placeholder="체육관 이름..">
+            <button class="gim_btn"><i class="fas fa-search"></i></button>
             <!-- <i class="fas fa-search"></i> -->
-          </form>
-          <!-- 시군구 검색 -->
-          <form class= "sm_searching_item1_form" action="">
-          <select name="address" id="">
-            <option value="서울특별시">서울특별시</option>
-          </select>
-          <select name="address2" id="">
-            <option value="중랑구">중랑구</option>
-          </select>
-          <button>검색</button>
           </form>
         </div>
         <!-- item2 -->
         <div class="sm_searching_item2">
           <ol>
-          <li><a href="">전체보기</a></li>
-          <li><a href="">내 위치로 검색</a></li>
-          <li><a href="">매칭신청 올리기</a></li>
-          <li><a href="">대관하기</a></li>
+            <li><a href="">전체보기</a></li>
+            <li><a href="">내 위치로 검색</a></li>
+            <li><a href="">매칭신청 올리기</a></li>
+            <li><a href="">대관하기</a></li>
           </ol>
         </div>
 
       </section>
 
-      
+
 
     </div>
   </div>
-  
+
 </body>
+
 </html>
