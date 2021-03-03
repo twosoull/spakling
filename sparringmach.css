@@ -1,22 +1,5 @@
 /**glovar**/
 
-input[type="text"],
-input[type="password"] {
-  height: auto; /* 높이 초기화 */
-  line-height: normal; /* line-height 초기화 */
-  padding: 0.8em 0.5em; /* 여백 설정 */
-}
-
-.textbox input[type="text"],
-.textbox input[type="password"] {
-  width: 100%; /* 원하는 너비 설정 */
-  height: auto; /* 높이값 초기화 */
-  line-height: normal; /* line-height 초기화 */
-  padding: 0.8em 0.5em; /* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
-
-  color: #e2e2e2;
-}
-
 /**Sparring mach**/
 .wrap {
   max-width: 100%;
@@ -44,4 +27,43 @@ input[type="password"] {
 
 .sm_searching_item2 {
   display: flex;
+}
+
+#form_gim {
+  height: 40px;
+  width: 250px;
+  border: 1px solid black;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+  background-color: #f7f7f7;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: gray;
+}
+input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.input-text {
+  margin: 13px 0px 2px 20px;
+  font-size: 15px;
+  width: 200px;
+  padding: 0px;
+  border: 1px;
+  float: left;
+  outline: none;
+  background-color: #f7f7f7;
+  color: black;
+}
+button {
+  border: none;
+  background-color: #f7f7f7;
+  height: 42px;
+  font-size: 18px;
+
+  outline: none;
 }
