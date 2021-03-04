@@ -1,5 +1,7 @@
 /**glovar**/
-
+* {
+  /* border: 1px solid black; */
+}
 /**Sparring mach**/
 .wrap {
   max-width: 100%;
@@ -23,16 +25,23 @@
 
 .sm_searching_item1 {
   display: flex;
-}
-
-.sm_searching_item2 {
-  display: flex;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
 }
 
 .sm_searching_item1_form {
   display: flex;
   width: 464px;
   margin-right: 20px;
+}
+
+.sm_searching_item2 {
+  display: flex;
+  height: 100px;
+}
+.sm_searching_item2_list {
+  display: flex;
+  margin-top: 15px;
 }
 
 #form_gim {
@@ -70,10 +79,16 @@ input:-ms-input-placeholder {
   background-color: #f7f7f7;
   height: 40px;
   font-size: 18px;
-
+  cursor: pointer;
   outline: none;
 }
 
+.fa-search {
+  color: gray;
+}
+.fa-search:hover {
+  color: black;
+}
 .address_btn {
   width: 80px;
   margin-left: 10px;
@@ -81,6 +96,10 @@ input:-ms-input-placeholder {
   border: 0;
   font-weight: bold;
   color: gray;
+}
+.address_btn:hover {
+  color: white;
+  background-color: rgb(122, 122, 122);
 }
 
 .item1 {
@@ -98,4 +117,69 @@ input:-ms-input-placeholder {
 
 .item1_address_option {
   padding: 70px;
+}
+
+.item2_list_a1 {
+  font-weight: bold;
+}
+.list1 {
+  height: 27px;
+}
+
+.list2 {
+  margin: 17px 0px 0px 310px;
+  height: 50px;
+}
+
+.list1_btn1,
+.list1_btn2 {
+  background-color: #f7f7f7;
+  color: gray;
+  padding: 5px 0px 5px 10px;
+  border-radius: 20px;
+}
+.list1_btn1 {
+  width: 60px;
+}
+.list1_btn2 {
+  margin: 0px 0px 0px 20px;
+  width: 110px;
+}
+
+.list2_btn1,
+.list2_btn2 {
+  width: 130px;
+  height: 50px;
+  background-color: #02b951;
+  text-align: center;
+}
+
+.list2_btn2 {
+  margin-left: 20px;
+}
+.item2_list_a1 {
+  color: black;
+}
+.item2_list_a1:visited {
+  text-decoration: none;
+  color: gray;
+}
+.item2_list_a1:hover {
+  text-decoration: none;
+  color: black;
+}
+.item2_list_a2 {
+  margin-top: 40px;
+  padding: 10px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.item2_list_a2:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.fa-map-marker-alt {
+  margin-right: 5px;
+  color: #e60012;
 }
