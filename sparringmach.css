@@ -1,5 +1,6 @@
 /**glovar**/
 * {
+  color: #333;
   /* border: 1px solid black; */
 }
 /**Sparring mach**/
@@ -12,7 +13,7 @@
   width: 1050px;
   margin: auto;
 }
-
+/* search */
 .sm_title {
   text-align: center;
   padding: 80px 0px 80px 0px;
@@ -21,6 +22,7 @@
 .sm_searching {
   width: 800px;
   margin: auto;
+  /* background-image: url(img/search.jpg); */
 }
 
 .sm_searching_item1 {
@@ -182,4 +184,173 @@ input:-ms-input-placeholder {
 .fa-map-marker-alt {
   margin-right: 5px;
   color: #e60012;
+}
+/* Mach Card */
+
+.mach-card {
+  display: flex;
+  max-width: 1050px;
+  flex-flow: row wrap;
+}
+
+.card_container {
+  position: relative;
+  margin-top: 30px;
+  width: 525px;
+}
+
+.card {
+  width: 500px;
+  height: 213px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  border-radius: 10px;
+}
+.card1 {
+  display: flex;
+  height: 212px;
+
+  width: 500px;
+}
+
+.card_img {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 210px;
+  height: 213px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 5px rgb(196, 196, 196);
+}
+
+.card_profile {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  left: 190px;
+  top: 0px;
+  height: 212px;
+  width: 313px;
+}
+
+.card_address {
+  width: 290px;
+  height: 40px;
+  margin: 16px 0px 0px 18px;
+  display: flex;
+}
+
+.address_icon {
+  margin: 5px 10px 0px 0px;
+}
+.card_address_gimname {
+  width: 175px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.card_address_kind {
+  text-align: center;
+  width: 90px;
+  height: 20px;
+  margin: 0px 0px 0px 01px;
+  background-color: #ef657f;
+  border-radius: 10px;
+}
+.card_address_kind > p {
+  margin-top: 2px;
+  color: rgb(255, 255, 255);
+}
+
+.card_user {
+  display: flex;
+  height: 100px;
+}
+
+.card_user_profil {
+  width: 180px;
+  height: 50px;
+  margin: 0px 0px 0px 15px;
+}
+
+.fa-user {
+  font-size: 18px;
+  color: #d4d4d4;
+  margin-right: 7px;
+}
+.user_name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.user_text {
+  font-size: 15px;
+  color: #333;
+  margin: 15px 0px 0px 0px;
+  font-weight: bold;
+}
+.user_pro {
+  margin-top: 7px;
+  color: #d4d4d4;
+}
+.user_pro > span {
+  color: #d4d4d4;
+}
+
+.fa-star {
+  color: #ffb100;
+  margin: 0px 3px 0px 0px;
+}
+.user_skill {
+  margin: 7px 0px 0px 0px;
+  color: #333;
+}
+.user_skill > span {
+  color: #333;
+}
+
+.card_user_img {
+  height: 100px;
+  width: 20px;
+}
+.card_user_img_1 {
+  width: 80px;
+  border-radius: 10px;
+  margin: 0px 0px 0px 20px;
+}
+.card_price {
+  display: flex;
+  margin: 12px 0px 0px 10px;
+  width: 400px;
+  height: 30px;
+}
+.card_price_2person {
+  color: #c3c3c3;
+  font-weight: bold;
+  margin: 10px 0px 0px 120px;
+}
+
+.card_price_1person {
+  font-size: 20px;
+  margin: 0px 0px 0px 5px;
+  font-weight: bold;
+}
+
+/*paging*/
+
+#paging {
+  margin: 0px auto;
+  width: 310px;
+}
+
+#paging ul {
+  margin: 40px 5px 10px 5px;
+}
+#paging ul > li {
+  float: left;
+  margin: 0px 8px 0px 8px;
+}
+
+#paging ul > li.active {
+  font-size: 14px;
+  font-weight: bold;
 }
