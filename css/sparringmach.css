@@ -212,6 +212,10 @@ input:-ms-input-placeholder {
 
   width: 500px;
 }
+.card1:hover {
+  box-shadow: 1px 1px 20px #ddd;
+  transition: 0.5s all;
+}
 
 .card_img {
   position: absolute;
@@ -220,7 +224,6 @@ input:-ms-input-placeholder {
   width: 210px;
   height: 213px;
   border-radius: 10px;
-  box-shadow: 1px 0px 5px rgb(196, 196, 196);
 }
 
 .card_profile {
@@ -229,7 +232,7 @@ input:-ms-input-placeholder {
   border-radius: 10px;
   left: 190px;
   top: 0px;
-  height: 212px;
+  height: 213px;
   width: 313px;
 }
 
