@@ -46,23 +46,26 @@
   width: 350px;
   height: 490px;
 
-  margin: 30px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .amenities {
   width: 350px;
   height: 460px;
-  border: 1px solid black;
+
   margin-top: 10px;
 }
 
 .amenities_item1 {
-  width: 340px;
+  width: 345px;
   border-bottom: 1px solid #c3c3c3;
   margin-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
+.amenities_item1_sub {
+  margin-bottom: 5px;
+}
 .amenities_item1_title {
   font-size: 22px;
   margin: 0px 0px 10px 0px;
@@ -78,31 +81,70 @@
 }
 
 .amenities_item2 {
-  width: 350px;
-  height: 200px;
+  width: 360px;
+  height: 260px;
 
-  margin-top: 42px;
+  margin-top: 35px;
   display: flex;
   flex-flow: row wrap;
 }
 
 .amenities_item2_sub {
-  width: 165px;
-  height: 90px;
+  width: 167px;
+  height: 126px;
   background-color: rgb(216, 216, 216);
-  margin: 0px 10px 10px 0px;
+  margin: 0px 5px 0px 0px;
   border-radius: 10px;
 }
-
+.amenities_item2_sub_img {
+  width: 150px;
+  height: 89px;
+  margin: 0px 10px 0px 10px;
+}
+.amenities_item2_sub_title {
+  align-items: center;
+}
+.amenities_item2_sub_title > div {
+  font-size: 16px;
+  width: 48%;
+  margin: 0px auto;
+}
 .amenities_item3 {
   width: 340px;
   height: 90px;
   background-color: rgb(216, 216, 216);
-  margin: 0px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
   border-radius: 10px;
   text-align: center;
 }
 .amenities_item3_address {
   font-size: 22px;
   padding-top: 30px;
+}
+
+/* reservation */
+
+.reservation {
+  width: 1050px;
+  background-color: teal;
+}
+
+.reservation_day {
+  display: flex;
+  text-align: center;
+}
+
+.reservation_day > li {
+  width: 140px;
+  height: 69px;
+  background-color: yellowgreen;
+  margin: 3px 10px 3px 0px;
+  padding: 13px 0px 13px 0px;
+}
+.reservation_day > li > p {
+  padding-top: 11px;
+  font-size: 18px;
+}
+.reservation_day > li > span {
+  font-size: 11px;
 }

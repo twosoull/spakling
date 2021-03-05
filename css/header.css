@@ -32,7 +32,8 @@ body {
   font: 12px "맑은 고딕", 돋움, 굴림;
 }
 ul,
-ol {
+ol,
+li {
   list-style-type: none;
 }
 a:link {
