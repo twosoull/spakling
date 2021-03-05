@@ -1,0 +1,77 @@
+/* rental */
+
+.rental {
+  width: 1050px;
+  display: flex;
+  margin: 20px 0px 40px 0px;
+  flex-flow: row wrap;
+}
+
+/* rental card */
+.rental_container {
+  background-color: white;
+  width: 310px;
+  height: 450px;
+  margin: 50px 0px 0px 30px;
+  border: 1px solid #c3c3c3;
+  border-radius: 10px;
+}
+
+.rental_container:hover {
+  box-shadow: 2px 2px 40px #ddd;
+  transition: 0.5s all;
+}
+.rental_img {
+  position: relative;
+  width: 310px;
+  height: 290px;
+  top: -1px;
+  border-radius: 10px;
+}
+
+.rental_profile {
+  background-color: white;
+  width: 310px;
+  height: 140px;
+  border-radius: 10px;
+}
+.rental_profile1 {
+  margin-left: 15px;
+}
+.rental_profile_gim {
+  font-size: 15px;
+  font-weight: bold;
+  width: 250px;
+
+  margin-top: 15px;
+}
+
+.rental_profile_address {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #c3c3c3;
+}
+
+.rental_profile_address > .fa-map-marker-alt {
+  color: #c3c3c3;
+}
+
+.rental_profile_price1 {
+  margin-top: 10px;
+}
+.rental_profile_price2 > .pay {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rental_profile_price2 > .won {
+  margin-left: -4px;
+}
+.rental_profile_price2 > .person {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.rental_profile_good {
+  margin-top: 15px;
+}

@@ -1,2 +1,19 @@
 @import url("header.css");
 @import url("sparringmach.css");
+@import url("rental.css");
+@import url("rentaldetails.css");
+/**glovar**/
+* {
+  color: #333;
+  /* border: 1px solid black; */
+}
+/**Sparring mach**/
+.wrap {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 1050px;
+  margin: auto;
+}
