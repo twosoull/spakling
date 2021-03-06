@@ -13,10 +13,99 @@
 
 .post_host {
   width: 1050px;
+
+  display: flex;
+}
+.host_items1 {
+  width: 450px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .post_host_item {
-  width: 800px;
+  width: 450px;
+
+  height: 500px;
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+}
+.post_host_item1 {
+  background-color: rgb(216, 216, 216);
+  width: 135px;
+  margin: 0px 160px 0px 160px;
+}
+.post_host_item1 > span {
+  width: 150px;
+  background-color: #fff;
+}
+.post_host_item2 {
+  width: 450px;
+  height: 500px;
+  margin-top: -15px;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.post_host_item2_1 {
+  margin-top: 30px;
+
+  display: flex;
+}
+.post_host_imgbox {
+  width: 170px;
+  height: 180px;
+}
+.post_host_imgbox > img {
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+}
+.post_host_spa-profile {
+  width: 280px;
+  height: 180px;
+  background-color: white;
+}
+.post_host_spa-profile_coment {
+  color: rgb(142, 142, 142);
+  font-weight: bold;
+  font-size: 13px;
+}
+.post_host_spa-profile_spa {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.post_host_spa-profile_spa > span {
+  color: #e60012;
+  font-weight: bold;
+  font-size: 18px;
+}
+.post_host_item2_2 {
+  background-color: green;
+}
+.post_host_spac_profile {
+}
+.host_items2 {
+  width: 150px;
+  height: 1000px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.host_items3 {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: green;
+}
+
+/* 이전 버전
+.post_host_item {
+  width: 100px;
 
   margin: auto;
 
@@ -34,7 +123,7 @@
 }
 
 .post_host_item2 {
-  width: 800px;
+  width: 100px;
 
   border: 1px solid rgb(216, 216, 216);
   margin: auto;
@@ -42,20 +131,21 @@
 }
 
 .post_host_item2_1 {
-  width: 800px;
+  width: 100px;
   background-color: thistle;
   display: flex;
   border: 1px solid black;
 }
 
 .post_host_img {
-  width: 300px;
+  width: 100px;
   height: 200px;
   background-color: violet;
 }
 
 .post_host_spa-profile {
-  width: 400px;
+  width: 100px;
   height: 200px;
   background-color: tomato;
 }
+*/
