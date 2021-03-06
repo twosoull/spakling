@@ -12,10 +12,12 @@
 }
 
 .post_host {
-  width: 1050px;
-
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
   display: flex;
 }
+/* host_items1 */
 .host_items1 {
   width: 450px;
 
@@ -27,25 +29,29 @@
 .post_host_item {
   width: 450px;
 
-  height: 500px;
   text-align: center;
-  position: relative;
+  flex-flow: row;
   font-size: 15px;
 }
 .post_host_item1 {
-  background-color: rgb(216, 216, 216);
+  position: relative;
+  background-color: white;
   width: 135px;
   margin: 0px 160px 0px 160px;
 }
 .post_host_item1 > span {
-  width: 150px;
+  position: relative;
+  text-align: center;
+  width: 200px;
   background-color: #fff;
 }
+
 .post_host_item2 {
   width: 450px;
-  height: 500px;
+
   margin-top: -15px;
   border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
 }
 
 .post_host_item2_1 {
@@ -66,6 +72,7 @@
   width: 280px;
   height: 180px;
   background-color: white;
+  margin-right: 12px;
 }
 .post_host_spa-profile_coment {
   color: rgb(142, 142, 142);
@@ -83,26 +90,85 @@
   font-size: 18px;
 }
 .post_host_item2_2 {
-  background-color: green;
 }
 .post_host_spac_profile {
+  margin-bottom: 20px;
 }
-.host_items2 {
+
+/* host_middle */
+.host_middle {
   width: 150px;
-  height: 1000px;
-  background-color: blue;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.host_middle_vs {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.post_host_spac_profile > p {
+  margin: 5px 0px 5px 0px;
+  font-weight: bold;
+}
+
+/* host_item3 */
+.post_host_item_victim {
+  width: 450px;
+  text-align: center;
+  flex-flow: row;
+  font-size: 15px;
 }
 .host_items3 {
   width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: green;
 }
 
+.victim_card {
+  width: 200px;
+  height: 130px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+  margin: 20px 10px 5px 10px;
+}
+
+.victim_card_name {
+  margin: 0px 0px 0px 0px;
+  padding: 15px 0px 0px 0px;
+  font-weight: bold;
+}
+
+.victim_card_name > i {
+  color: #e60012;
+}
+.victim_card_skills {
+  font-size: 12px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+}
+.victim_card_coment {
+  padding: 10px 0px 0px 0px;
+}
+
+.post_host_victim {
+  width: 450px;
+
+  margin-top: -15px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.empty {
+  width: 0px;
+  height: 0px;
+}
 /* 이전 버전
 .post_host_item {
   width: 100px;
