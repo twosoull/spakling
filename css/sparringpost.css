@@ -1,0 +1,61 @@
+.rule {
+  width: 1050px;
+  text-align: center;
+}
+.rule_info {
+  font-size: 20px;
+  color: #e60012;
+  margin-bottom: 10px;
+}
+.rule > h1 {
+  font-size: 30px;
+}
+
+.post_host {
+  width: 1050px;
+}
+
+.post_host_item {
+  width: 800px;
+
+  margin: auto;
+
+  margin-top: 100px;
+}
+.post_host_item1 {
+  font-size: 25px;
+  position: relative;
+  background-color: #fff;
+  width: 150px;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 320px 0px 320px;
+  border-left: 1px solid rgb(216, 216, 216);
+  border-right: 1px solid rgb(216, 216, 216);
+}
+
+.post_host_item2 {
+  width: 800px;
+
+  border: 1px solid rgb(216, 216, 216);
+  margin: auto;
+  margin-top: -15px;
+}
+
+.post_host_item2_1 {
+  width: 800px;
+  background-color: thistle;
+  display: flex;
+  border: 1px solid black;
+}
+
+.post_host_img {
+  width: 300px;
+  height: 200px;
+  background-color: violet;
+}
+
+.post_host_spa-profile {
+  width: 400px;
+  height: 200px;
+  background-color: tomato;
+}
