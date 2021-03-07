@@ -3,6 +3,7 @@
 @import url("rental.css");
 @import url("rentaldetails.css");
 @import url("sparringpost.css");
+@import url("payment.css");
 /**glovar**/
 * {
   color: #333;

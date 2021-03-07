@@ -1,0 +1,139 @@
+.payment {
+  width: 1050px;
+}
+
+.stuff {
+  width: 1050px;
+  display: flex;
+}
+
+.stuff_kind {
+  width: 700px;
+  background-color: chartreuse;
+}
+
+.stuff_title {
+  height: 35px;
+
+  border-bottom: 2px solid black;
+}
+.stuff_title > p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.stuff_info {
+  margin-top: 20px;
+}
+
+.stuff_info {
+  display: flex;
+}
+
+.stuff_info_img > img {
+  width: 150px;
+  height: 150px;
+}
+
+.stuff_info_details {
+  margin: 0px 0px 0px 20px;
+}
+.stuff_info_details_remove {
+  margin: 0px 0px 20px 500px;
+}
+
+.stuff_info_details_remove > a > button {
+  width: 20px;
+  height: 20px;
+  padding-bottom: 10px;
+}
+.stuff_info_details_name {
+  font-size: 15px;
+  font-weight: bold;
+}
+.stuff_info_details_name_sub {
+  font-size: 12px;
+  font-weight: bold;
+  color: #e60012;
+  margin-top: 10px;
+}
+.stuff_price {
+  display: flex;
+  border-top: 1px solid rgb(216, 216, 216);
+  margin-top: 20px;
+  width: 530px;
+}
+.stuff_price_pay1 {
+  margin: 10px 0px 0px 0px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.stuff_price_pay2 {
+  margin: 10px 0px 0px 340px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.paykind_title {
+  margin: 50px 0px 20px 0px;
+  width: 700px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding: 0px 0px 10px 0px;
+}
+
+.paykind {
+  display: flex;
+}
+/* pay table */
+
+.paykind_table {
+  width: 600px;
+  height: 200px;
+}
+
+.paykind_table th {
+  width: 100px;
+  font-size: 13px;
+}
+
+.table_pay-radio {
+  margin: 7px 0px 0px 0px;
+}
+.table_pay-radio0 {
+  margin: 3px 0px 0px 0px;
+}
+.table_card {
+  display: flex;
+  margin: 15px 0px 0px 0px;
+}
+
+.table_pay-radio_select {
+  margin: 0px 0px 0px 15px;
+}
+
+.btn_payment {
+  margin: 150px 0px 50px 480px;
+}
+
+.btn_payment > button {
+  background: #e60012;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 0px 50px 0px 50px;
+
+  outline: none;
+}
+/* stuff all price */
+
+.stuff_all_price {
+  width: 300px;
+  height: 300px;
+  background-color: blueviolet;
+  margin-left: 50px;
+}
