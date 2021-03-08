@@ -9,7 +9,6 @@
 
 .stuff_kind {
   width: 700px;
-  background-color: chartreuse;
 }
 
 .stuff_title {
@@ -75,16 +74,21 @@
 }
 
 .paykind_title {
-  margin: 50px 0px 20px 0px;
   width: 700px;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: bold;
   border-bottom: 2px solid black;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 30px 0px;
 }
 
+.paykind-section {
+  width: 1050px;
+  margin: auto;
+}
 .paykind {
   display: flex;
+  width: 1050px;
+  margin: auto;
 }
 /* pay table */
 
@@ -114,7 +118,7 @@
 }
 
 .btn_payment {
-  margin: 150px 0px 50px 480px;
+  margin: 80px 0px 50px 480px;
 }
 
 .btn_payment > button {
@@ -132,8 +136,106 @@
 /* stuff all price */
 
 .stuff_all_price {
-  width: 300px;
+  width: 390px;
   height: 300px;
-  background-color: blueviolet;
   margin-left: 50px;
+}
+.payment_line {
+  height: 2px;
+  width: 700px;
+  margin: 35px 0px 5px 0px;
+  background-color: black;
+}
+
+/* sf section */
+
+.sf_section {
+  width: 1050px;
+  display: flex;
+}
+
+.sf_form {
+  width: 700px;
+}
+.sf_modal {
+  width: 284px;
+  margin-left: 65px;
+  background-color: #fafafa;
+  border: 1px solid #f2f2f2;
+}
+
+.modal_icon {
+  color: rgb(216, 216, 216);
+  font-size: 16px;
+}
+
+.sf_address {
+  height: 150px;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: white;
+}
+
+.sf_address_item1,
+.sf_address_item2,
+.sf_price {
+  margin: 0px 0px 0px 15px;
+}
+
+.sf_address_item1 {
+  padding-top: 15px;
+  margin: 0px 0px 0px 15px;
+  height: 59px;
+}
+.sf_address_item2_text {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
+}
+
+.sf_address_item2_fix {
+  padding-bottom: 30px;
+}
+
+.sf_price {
+  width: 244px;
+  background-color: #fafafa;
+}
+
+.sf_amount {
+  display: flex;
+  margin: 20px 0px 10px 0px;
+  justify-content: space-between;
+}
+
+.sf_tit {
+  font-size: 16px;
+}
+
+.price_sf {
+  font-size: 16px;
+}
+
+.sf_amount_lst {
+  width: 284px;
+  height: 30px;
+  border-top: 1px solid #f2f2f2;
+  display: flex;
+  margin: 30px 0px 10px 0px;
+  padding: 15px 0px 0px 0px;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+
+.sf_tit_lst {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.price_sf_lst {
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.package > p {
+  font-size: 13px;
 }
