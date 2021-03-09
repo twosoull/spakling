@@ -48,6 +48,7 @@
 
 .post_host_item2 {
   width: 450px;
+  height: 500px;
   padding-bottom: 30px;
   margin-top: -15px;
   border: 1px solid rgb(216, 216, 216);
@@ -167,6 +168,16 @@
 .empty {
   width: 0px;
   height: 0px;
+}
+.chell {
+  background-color: #e60012;
+  display: flex;
+}
+.chell_item {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }
 /* 이전 버전
 .post_host_item {

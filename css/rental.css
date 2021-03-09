@@ -1,10 +1,18 @@
+.sm2 {
+  margin: 100px 0px 20px 0px;
+  width: 1050px;
+}
+.sm_title2 {
+}
+
 /* rental */
 
 .rental {
   width: 1050px;
   display: flex;
   margin: 20px 0px 40px 0px;
-  flex-flow: row wrap;
+
+  flex-flow: wrap;
 }
 
 /* rental card */
@@ -12,7 +20,7 @@
   background-color: white;
   width: 310px;
   height: 450px;
-  margin: 50px 0px 0px 30px;
+  margin: 50px 18px 0px 18px;
   border: 1px solid #c3c3c3;
   border-radius: 10px;
 }

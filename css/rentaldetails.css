@@ -10,7 +10,7 @@
   width: 600px;
   height: 490px;
 
-  margin: 10px 30px 0px 35px;
+  margin: 10px 100px 0px 0px;
 }
 
 .detail_info_first-img {
@@ -242,7 +242,7 @@
   left: 0px;
   bottom: 0px;
   width: 100%;
-  height: 90px;
+  height: 60px;
   text-align: center;
   background-color: #fff;
   border-top: 1px solid rgb(216, 216, 216);
@@ -257,14 +257,43 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  height: 60px;
-  font-size: 25px;
+  height: 30px;
+  font-size: 15px;
   margin-top: 10px;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 30px 30px 30px;
 
   outline: none;
 }
 
 .dea_btn {
+  color: #fff;
+}
+
+.dae_button_item2 {
+  background: #e60012;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px 30px 30px 30px;
+
+  outline: none;
+}
+.dae_button_item3 {
+  background: #5f5f5f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px 30px 30px 30px;
+
+  outline: none;
+}
+
+.dea_btn2 {
   color: #fff;
 }
