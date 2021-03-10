@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/rentswipe.css">
+</head>
+
+<body>
+    <div class="sp_box">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-container">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box1">
+                        <div>1</div>
+                        <div>월</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">화</div>
+                <div class="swiper-slide">수</div>
+                <div class="swiper-slide">목</div>
+                <div class="swiper-slide">금</div>
+                <div class="swiper-slide">토</div>
+                <div class="swiper-slide">일</div>
+                <div class="swiper-slide">월</div>
+                <div class="swiper-slide">화</div>
+                <div class="swiper-slide">10</div>
+                <div class="swiper-slide">11</div>
+                <div class="swiper-slide">12</div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            slidesPerView: 7,
+
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+
+            },
+        });
+
+    </script>
+</body>
+
+
+</html>

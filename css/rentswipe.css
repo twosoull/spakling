@@ -1,0 +1,60 @@
+.sp_box {
+  width: 1400px;
+  display: flex;
+  position: relative;
+  right: 10px;
+}
+.box1 {
+  background-color: #e60012;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+.box1 > div {
+  color: rgb(245, 245, 245);
+}
+.rn_container {
+  width: 950px;
+  height: 100px;
+  margin-left: 30px;
+  border-radius: 7px;
+
+  position: static;
+}
+
+.rn_wrapper {
+  width: 300px;
+}
+.rn_slide {
+  text-align: center;
+  width: 100px;
+
+  display: flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+
+  align-items: center; /* 위아래 기준 중앙정렬 */
+
+  justify-content: center; /* 좌우 기준 중앙정렬 */
+  font-size: 15px;
+}
+
+.swiper-slide img {
+  box-shadow: 0 0 5px #555;
+
+  max-width: 100%; /* 이미지 최대너비를 제한, 슬라이드에 이미지가 여러개가 보여질때 필요 */
+
+  /* 이 예제에서 필요해서 설정했습니다. 상황에따라 다를 수 있습니다. */
+}
+
+.rn_next {
+  position: absolute;
+  left: 1020px;
+}
+
+.rn_prev {
+  position: absolute;
+  right: 100px;
+}

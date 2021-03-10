@@ -8,7 +8,7 @@
 
 .detail_info_img {
   width: 600px;
-  height: 490px;
+  height: 515px;
 
   margin: 10px 100px 0px 0px;
 }
@@ -17,7 +17,7 @@
   width: 580px;
   height: 370px;
 
-  margin: 10px 10px 10px 10px;
+  margin: 10px 0px 10px 0px;
 }
 
 .detail_info_first-img_main {
@@ -29,8 +29,6 @@
 .detail_info_sub-imgs {
   width: 580px;
   height: 90px;
-
-  margin-left: 10px;
 }
 
 .detail_info_sub-img {
@@ -45,8 +43,6 @@
 .detail_info_amenities {
   width: 350px;
   height: 490px;
-
-  margin: 10px 0px 0px 0px;
 }
 
 .amenities {
@@ -59,7 +55,7 @@
 .amenities_item1 {
   width: 345px;
   border-bottom: 1px solid #c3c3c3;
-  margin-top: 20px;
+  margin-top: 18px;
   padding-bottom: 10px;
 }
 
@@ -68,7 +64,7 @@
 }
 .amenities_item1_title {
   font-size: 22px;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 15px 0px;
   font-weight: bold;
 }
 
@@ -82,9 +78,9 @@
 
 .amenities_item2 {
   width: 360px;
-  height: 260px;
+  height: 280px;
 
-  margin-top: 35px;
+  margin-top: 10px;
   display: flex;
   flex-flow: row wrap;
 }
@@ -93,7 +89,7 @@
   width: 167px;
   height: 126px;
   background-color: rgb(216, 216, 216);
-  margin: 0px 5px 0px 0px;
+  margin: 0px 5px 5px 0px;
   border-radius: 10px;
 }
 .amenities_item2_sub_img {

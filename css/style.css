@@ -5,6 +5,8 @@
 @import url("sparringpost.css");
 @import url("payment.css");
 @import url("cart.css");
+@import url("machingfrom.css");
+@import url("matchinfo.css");
 /**glovar**/
 * {
   color: #333;

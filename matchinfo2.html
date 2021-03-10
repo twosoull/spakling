@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>매칭프로필관리</title>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="container">
+          <div class="header">
+            <div class="header_logo"><a href=""><img src="img/로고.png"></a></div>
+            <div class="header_menu">
+              <ul>
+                <li id="no1"><a href="../영훈/스파링 매칭.html"><span>스파링 매치</span></a></li>
+                <li id="no2"><a href="../세림/storeList.html"><span>스토어</span></a></li>
+              </ul>
+            </div>
+            <div class="header_icon">
+              <div><a href="../mypage/mypage_buy/buylist.html"><img src="img/마이페이지 남성_글러브.png" ></a></div>
+              <div><a href="../mypage/mypage_buy/alarm.html"><img src="img/bell_2.png" ></a></div>
+              <div><a href="../mypage/mypage_buy/cart.html"><img src="img/cart3.png" ></a></div>
+            </div>  
+        </div><!--//header//-->
+
+		
+			<div class="middle_sp">
+
+				<div class="content_mypage">
+
+					<div class="sm">
+						<h1 class="sm_title">
+							매칭 정보 입력
+						</h1>
+					</div>
+					<!--//content_matchingInfo_header//-->
+
+					
+
+					<div class="content_bottom">
+
+						<!-- 입력폼 → 매칭프로필저장 -->
+						<form class="maching-table_sp">
+
+							<table class="insert_matcingInfo">
+								<colgroup>
+									<col style="width: 100px">
+									<col style="width: 100px">
+									<col style="width: 600px">
+								</colgroup>
+								<!--최근운동내역-->
+								<tr class="basic">
+									
+									<td colspan="2"><label for="prod_cate">스파링정보 불러오기</label></td>
+									<td>
+										<div class="content_product_insert_select_box">
+											<select id="lately">
+												<option selected>21/02/21</option>
+												<option>20/09/13</option>
+												<option>20/05/11</option>
+												<option>20/03/30</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<tr class="basic">
+									
+									<td colspan="2"><label for="prod_cate">주특기</label></td>
+									<td>
+										<div class="content_product_insert_select_box">
+											<select id="prod_cate">
+												<option selected>주특기</option>
+												<option>복싱</option>
+												<option>킥복싱</option>
+												<option>종합격투기</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<!-- //주특기 -->
+
+								<tr class="basic">
+									<td colspan="2"><label for="exer_cate">체급</label></td>
+									<td>
+										<div class="content_product_insert_select_box">
+											<select id="exer_cate">
+												<option selected>체급</option>
+												<option>헤비급</option>
+												<option>크루저급</option>
+												<option>미들급</option>
+												<option>웰터급</option>
+												<option>라이트급</option>
+												<option>페더급</option>
+												<option>밴텀급</option>
+												<option>플라이급</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<!-- //체급 -->
+
+								<tr class="basic">
+									<td colspan="2"><label for="prod_name">신장</label></td>
+									<td><input type="text" id="prod_name" placeholder="신장을 입력해주세요."></td>
+								</tr>
+								<!-- //신장 -->
+
+								<tr class="basic">
+									<td colspan="2"><label for="prod_price">체중</label></td>
+									<td><input type="text" id="prod_price" placeholder="체중을 입력해주세요."></td>
+								</tr>
+								<!-- //체중 -->
+
+								<tr class="basic">
+									<td colspan="2"><label for="brand_name">경력</label></td>
+									<td>
+										<div class="chk_box">
+											<input type='checkbox' id="pro_chk" name='pro' value='pro' />프로
+											<input type='checkbox' id="pro_chk" name='ama' value='ama' />아마추어
+										</div>
+									</td>
+								</tr>
+								<!-- //경력 -->
+
+								<tr class="basic">
+									<td><label for="prod_cate">공식기록</label></td>
+									<td><label for="prod_cate">대회명</label></td>
+									<td>
+										<input type="text" id="prod_name" placeholder="대회명을 입력해주세요.">
+									</td>
+								</tr>
+								<!-- //공식기록 - 대회명 -->
+
+								<tr class="basic">
+									<td><label for="prod_cate"></label></td>
+									<td><label for="prod_cate">종목</label></td>
+									<td>
+										<div class="content_product_insert_select_box">
+											<select id="prod_cate">
+												<option selected>종목</option>
+												<option>복싱</option>
+												<option>킥복싱</option>
+												<option>종합격투기</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<!-- //공식기록 - 종목 -->
+
+								<tr class="basic">
+									<td><label for="prod_cate"></label></td>
+									<td><label for="prod_cate">출전연도</label></td>
+									<td>
+										<div class="content_product_insert_select_box">
+											<select id="prod_cate">
+												<option selected>출전연도</option>
+												<option>2021</option>
+												<option>2020</option>
+												<option>2019</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<!-- //공식기록 - 출전연도 -->
+
+								<tr class="basic">
+									<td><label for="prod_cate"></label></td>
+									<td><label for="prod_cate">매치</label></td>
+									<td>
+										<div class="content_product_insert_select_box">
+											<select id="prod_cate">
+												<option selected>매치</option>
+												<option>일반매치</option>
+												<option>타이틀매치</option>
+
+											</select>
+										</div>
+									</td>
+								</tr>
+								<!-- //공식기록 - 매치 -->
+
+							</table>
+							<!-- //insert_matcingInfo -->
+
+							<div class="product_insert_btn2">
+								<button class="insert_btn2"><a href="결제하기.html">저장</a></button>
+								<button class="product_delclose_btn2">취소</button>
+							</div>
+							<!-- //product_insert_btn -->
+
+						</form>
+						<!-- //입력폼 → 주문하기 -->
+						
+					</div>
+					<!-- //content_bottom -->
+
+				</div>
+				<!--//content_mypage-->
+
+			</div>
+			<!--//content_product//-->
+
+		</div>
+		<!-- //container -->
+
+	</div>
+	<!-- //wrap -->
+
+</body>
+
+</html>

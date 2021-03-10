@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /***********공통*****************/
 body,
 div,
@@ -32,8 +34,7 @@ body {
   font: 12px "맑은 고딕", 돋움, 굴림;
 }
 ul,
-ol,
-li {
+ol {
   list-style-type: none;
 }
 a:link {
@@ -52,115 +53,159 @@ a:hover {
   text-decoration: none;
   color: #000000;
 }
+
 /****************공통******************/
 
-#wrap {
+.wrap {
   max-width: 100%;
   overflow: hidden;
 }
-#wrap #container {
+.wrap .container {
   width: 1050px;
   margin: 0 auto;
   overflow: hidden;
 }
-#wrap #container #header {
+.wrap .container .header {
   width: 1050px;
   overflow: hidden;
   margin-top: 20px;
 }
-#wrap #container #header li {
-  float: left;
-}
-#wrap #container #header a {
+
+.wrap .container .header a {
   overflow: hidden;
   float: left;
-  height: 55px;
+  height: 60px;
   font-size: 16px;
   color: #333;
   line-height: 20px;
   text-align: center;
+  cursor: pointer;
+}
+
+/*헤더적용*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
 }
 
 /*로고*/
-#wrap #container #header .menu1 {
-  width: 140px;
-  margin-right: 220px;
-}
-#wrap #container #header .menu1 a {
-  width: 140px;
-}
-#wrap #container #header .menu1 img {
+.header_logo {
   width: 140px;
 }
 
-/*스파링매치*/
+.header_logo img {
+  width: 140px;
+}
 
-#wrap #container #header .menu2 {
-  width: 150px;
-  margin-right: 30px;
+/*스파링매치 스토어*/
+.header_menu {
+  width: 500px;
+  font-size: 16px;
+  font-weight: bold;
 }
-#wrap #container #header .menu2 a {
-  width: 150px;
-  font-weight: 700;
-}
-#wrap #container #header .menu2 a:hover {
-  color: #e60012;
-}
-#wrap #container #header .menu2 a:active {
-  color: #e60012;
-}
-#wrap #container #header .menu2 span {
+.header_menu span {
   width: 150px;
   height: 80px;
   display: block;
-  margin-top: 30px;
-  text-align: center;
 }
 
-/*스토어*/
-#wrap #container #header .menu3 {
-  width: 150px;
-  margin-right: 165px;
-}
-#wrap #container #header .menu3 a {
-  width: 150px;
-  font-weight: 700;
-}
-#wrap #container #header .menu3 a:hover {
+.header_menu a span:hover {
   color: #e60012;
 }
-#wrap #container #header .menu3 a:active {
+.header_menu a span:active {
   color: #e60012;
-}
-#wrap #container #header .menu3 span {
-  width: 150px;
-  height: 80px;
-  display: block;
-  margin-top: 30px;
-  text-align: center;
 }
 
-/*마이페이지*/
-#wrap #container #header .menu4 {
-  width: 60px;
-  margin-top: 20px;
+.header_menu #no1 {
+  margin: 30px 10px 0px 115px;
+  color: #e60012;
 }
-#wrap #container #header .menu4 img {
+
+.header_menu #no2 {
+  margin: 30px 20px 0px 18px;
+}
+
+/*아이콘*/
+.header_icon {
+  width: 200px;
+  display: flex;
+}
+.header_icon img {
   width: 30px;
+  margin: 20px 0px 0px 30px;
 }
-/*알람*/
-#wrap #container #header .menu5 {
-  width: 60px;
-  margin-top: 20px;
+
+/*마이페이지 사이드바*/
+
+/*상단 마이페이지 글자*/
+
+.middle {
+  width: 1050;
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
 }
-#wrap #container #header .menu5 img {
-  width: 30px;
+.side_menu {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
 }
-/*장바구니*/
-#wrap #container #header .menu6 {
-  width: 60px;
-  margin-top: 20px;
+.side_menu ul {
+  margin-bottom: 50px;
 }
-#wrap #container #header .menu6 img {
-  width: 30px;
+
+.side_menu_mypage {
+  margin-bottom: 25px;
+}
+
+.side_menu_mypage > span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.side_menu #side_menu_booking li,
+.side_menu #side_menu_delivery li,
+.side_menu #side_menu_user li {
+  border-top: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+  width: 180px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.side_menu ul .side_menu_last {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.side_menu li a {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side_menu li span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.side_menu li div {
+  width: 16px;
+}
+
+/*메뉴 이름*/
+.side_menu li .menu {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+/*메뉴 화살표*/
+.side_menu li .arrow {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
 }

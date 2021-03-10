@@ -47,14 +47,16 @@
 }
 
 .post_host_item2 {
-  width: 450px;
+  width: 445px;
   height: 500px;
   padding-bottom: 30px;
   margin-top: -15px;
   border: 1px solid rgb(216, 216, 216);
   border-radius: 10px;
 }
-
+.post_host_nopeople {
+  margin-top: 250px;
+}
 .post_host_item2_1 {
   margin-top: 30px;
 
@@ -108,6 +110,7 @@
   text-align: center;
   font-size: 70px;
   font-weight: bold;
+  margin-top: 210px;
 }
 
 .post_host_spac_profile > p {
@@ -170,7 +173,6 @@
   height: 0px;
 }
 .chell {
-  background-color: #e60012;
   display: flex;
 }
 .chell_item {
@@ -179,6 +181,69 @@
   height: 50px;
   margin-right: 5px;
 }
+
+/*스와이프*/
+.ss_box {
+  width: 450px;
+  display: flex;
+  position: relative;
+  right: 10px;
+}
+.box2 {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+.box1 > div {
+  color: rgb(245, 245, 245);
+}
+.ss_con {
+  width: 340px;
+  height: 100px;
+  margin-left: 40px;
+  border-radius: 7px;
+
+  position: static;
+}
+
+.ss_wrapper {
+  width: 500px;
+  margin-left: 20px;
+}
+.ss_slide {
+  text-align: center;
+  width: 140px;
+
+  display: flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+
+  align-items: center; /* 위아래 기준 중앙정렬 */
+
+  justify-content: center; /* 좌우 기준 중앙정렬 */
+  font-size: 15px;
+}
+
+.swiper-slide img {
+  box-shadow: 0 0 5px #555;
+
+  max-width: 100%; /* 이미지 최대너비를 제한, 슬라이드에 이미지가 여러개가 보여질때 필요 */
+
+  /* 이 예제에서 필요해서 설정했습니다. 상황에따라 다를 수 있습니다. */
+}
+
+.ss_next {
+  position: absolute;
+  left: 430px;
+}
+
+.ss_prev {
+  position: absolute;
+  right: 0px;
+}
+
 /* 이전 버전
 .post_host_item {
   width: 100px;

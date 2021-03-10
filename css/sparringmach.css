@@ -3,12 +3,17 @@
   border-bottom: 3px solid black;
   margin: 100px 0px 30px 0px;
   width: 1050px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .sm_title {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
+.sm_title_back {
+  margin-top: 15px;
+}
 .sm_searching {
   width: 1050px;
   margin: auto;
@@ -195,8 +200,8 @@ input:-ms-input-placeholder {
 
 .card_container {
   position: relative;
-  margin-top: 30px;
-  width: 525px;
+  margin: 30px 0px 0px 0px;
+  width: 522px;
 }
 
 .card {
@@ -247,10 +252,16 @@ input:-ms-input-placeholder {
   margin: 5px 10px 0px 0px;
 }
 .card_address_gimname {
-  width: 175px;
+  width: 160px;
   font-size: 15px;
   font-weight: bolder;
+  padding-bottom: 10px;
+  margin: 0px;
 }
+.card_address_gimname > p {
+  margin: 0px;
+}
+
 .card_address_kind {
   text-align: center;
   width: 90px;
@@ -305,6 +316,7 @@ input:-ms-input-placeholder {
 }
 .user_skill {
   margin: 7px 0px 0px 0px;
+  width: 230px;
   color: #333;
 }
 .user_skill > span {
