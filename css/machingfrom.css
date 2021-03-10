@@ -1,3 +1,4 @@
+/*
 .maching-table_sp {
   margin: 0px 0px 0px 330px;
 }
@@ -26,7 +27,47 @@
   text-decoration: none;
 }
 
+*/
+.form2_container {
+  width: 900px;
+  margin-left: 270px;
+}
 /* 버튼 위치조절 */
 .product_insert_btn2 {
-  margin: 30px 230px 70px 40px;
+  margin: 30px 0px 0px 140px;
+}
+.insert_btn2,
+.product_delclose_btn2 {
+  width: 100px;
+  height: 30px;
+}
+
+.insert_matcingInfo2 {
+  font-size: 16px;
+  margin-top: 20px;
+  min-height: 600px;
+  width: 700px;
+}
+
+.official_button_plus2 {
+  margin-left: 278px;
+}
+
+.sparring_ex_title {
+  margin: 40px 0px 40px 120px;
+}
+
+.sparring_ex {
+  margin: 0px 0px 0px 180px;
+}
+
+.sparring_ex2 {
+  margin-left: 70px;
+}
+.coment_title {
+  font-size: 16px;
+}
+.coment_one {
+  margin: 20px 0px 0px 59px;
+  width: 155px;
 }
