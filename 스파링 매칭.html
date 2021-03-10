@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,83 +9,101 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/5a9452f10d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <!-- Header -->
->
-    <div class="container">
-      <div class="header">
-        <div class="header_logo"><a href=""><img src="img/로고.png"></a></div>
-        <div class="header_menu">
-          <ul>
-            <li id="no1"><a href=""><span>스파링 매치</span></a></li>
-            <li id="no2"><a href=""><span>스토어</span></a></li>
-          </ul>
-        </div>
-        <div class="header_icon">
-          <div><a href=""><img src="img/마이페이지 남성_글러브.png" ></a></div>
-          <div><a href=""><img src="img/bell_2.png" ></a></div>
-          <div><a href=""><img src="img/cart3.png" ></a></div>
-        </div>  
-    </div><!--//header-->
+  <div class="wrap">
+  <div class="container">
+    <div class="header">
+      <div class="header_logo"><a href=""><img src="img/로고.png"></a></div>
+      <div class="header_menu">
+        <ul>
+          <li id="no1"><a href=""><span>스파링 매치</span></a></li>
+          <li id="no2"><a href=""><span>스토어</span></a></li>
+        </ul>
+      </div>
+      <div class="header_icon">
+        <div><a href=""><img src="img/마이페이지 남성_글러브.png"></a></div>
+        <div><a href=""><img src="img/bell_2.png"></a></div>
+        <div><a href=""><img src="img/cart3.png"></a></div>
+      </div>
     </div>
   </div>
+</div>
+    <!--//header-->
 
-  <!-- Sparring -->
-  <div class="wrap">
-    <div class="container">
-      <div class="sm2">
-        <h1 class="sm_title2">스파링을 시작해보세요!</h1>
-      </div>
-      <!-- search -->
-      <section class="sm_searching">
-        <!-- item1 -->
-        <div class="sm_searching_item1">
-          
-          <div class="sm_searching_item2_list list1">  
-            <a class="item2_list_a1" href="">
-              <div class="list1_btn2">
-                <div class="item2_list_a1_div">
-                  <i class="fas fa-map-marker-alt"></i>
-                  내게 맞는 매치 보기
+
+    <!-- Sparring -->
+    <div class="wrap">
+      <div class="container">
+        <div class="sm2">
+          <h1 class="sm_title2">스파링을 시작해보세요!</h1>
+        </div>
+        <!-- search -->
+        <section class="sm_searching">
+          <!-- item1 -->
+          <div class="sm_searching_item1">
+
+            <div class="sm_searching_item2_list2 ">
+              <a class="item2_list_a1" href="">
+                <div class="list1_btn2">
+                  <div class="item2_list_a1_div">
+                    <i class="fas fa-map-marker-alt"></i>
+                    내게 맞는 매치 보기
+                  </div>
                 </div>
-              </div>
-            </a>
-          </div>
-          <!-- 시군구 검색 -->
+              </a>
+            </div>
           
+          <!-- 시군구 검색 -->
+
           <form class="sm_searching_item1_form" action="">
-            
+
             <a class="item2_list_a3" href="">
               <div class="list1_btn1">
                 <div>전체보기</div>
               </div>
             </a>
-            <div>
-              <div class="item1">시도</div>
-            </div>
-            <select class="item1_address" name="address" id="">
-              <option class="item1_address_option" value="서울특별시">서울특별시</option>
-            </select>
-            <div>
-              <div class="item1_2">시군구</div>
-            </div>
-            <select class="item1_address" name="address2" id="">
-              <option class="item1_address_option" value="중랑구">중랑구</option>
-            </select>
-            <input class="input-text" type="text" placeholder="체육관 이름..">
             
+            <select class="item1_address" name="address2" id="">
+              <option class="item1_address_option" value="21-03-05">날짜선택</option>
+            </select>
+            <select class="item1_address" name="address2" id="">
+              <option class="item1_address_option" value="21-03-05">시간선택</option>
+            </select>
+            <input class="input-text" type="text" placeholder="시군구 또는 체육관 이름..">
+
             <button class="address_btn">검색</button>
           </form>
+        </div>
           <!-- 체육관 검색 -->
-          
-        </div>
-        <!-- item2 -->
-        <div class="sm_searching_item2">
-          <div class="sm_searching_item2_list list2">
-            <a class="item2_list_a2" href=""><div class="list2_btn1">매칭신청 올리기</div></a>
-            <a class="item2_list_a2" href=""><div class="list2_btn2">대관하기</div></a>
+
+      
+      <!-- item2 -->
+      <div class="sm_searching_item2">
+        <div class="sm_searching_item2_list list2">
+
+          <div class="list2_btn2">
+            <div>내 매치 만들기</div>
           </div>
+          <!-- 매치버튼박스 -->
+          <div class="mach_btn_box">
+            <div class="mach_box1">
+              <div class="mach_box_sub">직접 대관하시면 상대매칭이 수월합니다.</div>
+              <a href="">
+                <button class="mach_box_sub_btn">대관후 매치만들기</button>
+              </a>
+            </div>
+            <div class="mach_box2">
+              <div class="mach_box_sub">프로필을 공개하고 상대를 기다려보세요.</div>
+              <a href="">
+                <button class="mach_box_sub_btn">대관없이 매치만들기</button>
+              </a>
+            </div>
+          </div>
+          <!-- 매치버튼박스 end -->
         </div>
+      </div>
 
       </section>
 
@@ -280,7 +299,7 @@
           </div>
         </div>
         <!-- card end -->
-       
+
 
       </section>
       <!-- Mach Card end -->
