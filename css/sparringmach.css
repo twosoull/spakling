@@ -161,7 +161,7 @@ input:-ms-input-placeholder {
 .mach_btn_box {
   background: #fff;
   position: absolute;
-  z-index: 1;
+  z-index: 5;
   width: 300px;
   height: 200px;
   text-align: center;
@@ -268,17 +268,18 @@ input:-ms-input-placeholder {
   left: -1px;
   width: 210px;
   height: 213px;
-  border-radius: 10px;
+  z-index: 4;
 }
 
 .card_profile {
   position: absolute;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  left: 190px;
+
+  left: 210px;
   top: 0px;
   height: 213px;
   width: 313px;
+  z-index: 3;
 }
 
 .card_address {
